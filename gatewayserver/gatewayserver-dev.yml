@@ -8,8 +8,8 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: newsserver
-          uri: lb://newsserver
+        - id: newsservice
+          uri: lb://newsservice
           predicates:
             - Path=/news/**
 eureka:
