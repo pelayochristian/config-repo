@@ -16,7 +16,7 @@ eureka:
 # REDIS CONFIG
 redis:
   expire:
-    duration: 30
+    duration: 1
 
 # SPRING CONFIG
 spring:
